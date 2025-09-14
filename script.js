@@ -26,9 +26,9 @@ function countdownhomepage() {
         // Quando il countdown arriva a zero, ferma l'intervallo e reindirizza alla pagina HTML indicata sotto
         if (countdown < 0) {
             clearInterval(intervalloditempocountdown); // Ferma l'intervallo di aggiornamento del countdown
-            window.location.href = "index.html"; // Viene indicato il nome della pagina HTML a cui deve reindirizzare
+            window.location.href = "https://istituto-freudinttheprodev.github.io/Sito-web-lavoro-di-gruppo-INFORMATICA/"; // Viene indicato il nome della pagina HTML a cui deve reindirizzare
         }
-    }, 1000); // Aggiorna ad ogni secondo il countdown nel codice
+    }, 1000); // Aggiorna ad ogni secondo (1000 millisecondi) il countdown nel codice
 }
 
 // Avvia il countdown quando la pagina è completamente caricata
